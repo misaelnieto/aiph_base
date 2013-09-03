@@ -1,0 +1,14 @@
+name = Tema base para AIPH
+description = Tema base para los sitios hermanos de la AIPH
+version = VERSION
+core = 7.x
+engine = phptemplate
+
+; Usamos el tema de Zurb Foundation como base
+base theme = zur_foundation
+
+; Esta imagen aparece en admin/appearance
+screenshot = images/screenshot.png
+
+; Hoja de estilo principal con los colores básicos
+stylesheets[all][] = css/style.css
